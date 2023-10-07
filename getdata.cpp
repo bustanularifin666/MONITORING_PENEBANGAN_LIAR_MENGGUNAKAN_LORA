@@ -72,7 +72,7 @@ int main (int argc, const char* argv[] )
         now_c = now_c + 25200;
         strftime(no, 19, "%d/%m/%y %H:%M:%S  %Z", localtime(&now_c));
         test = no;
-        std::cout << "1"
+        std::cout << "2"
 		  ///<< "Time: " << test
                   << " " << last_pos.get_latitude()
                   << " " << last_pos.get_longitude()
@@ -80,7 +80,7 @@ int main (int argc, const char* argv[] )
                   << " "<<data<<std::endl;
        ofstream myfile("/home/pi/gps.txt");
        if (myfile.is_open()){
-        myfile << "1"
+        myfile << "2"
 	///<< "Time: " << test
         << " " << last_pos.get_latitude()
         << " " << last_pos.get_longitude()

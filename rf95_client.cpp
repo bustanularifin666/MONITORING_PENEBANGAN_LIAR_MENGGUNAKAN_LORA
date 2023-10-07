@@ -54,7 +54,7 @@ using namespace std;
 // Our RFM95 Configuration
 #define RF_FREQUENCY  915.00
 #define RF_GATEWAY_ID 1
-#define RF_NODE_ID    1
+#define RF_NODE_ID    2
 
 // Create an instance of a driver
 RH_RF95 rf95(RF_CS_PIN, RF_IRQ_PIN);
